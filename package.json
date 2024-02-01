@@ -1,0 +1,27 @@
+{
+	"name": "jsdoc-web-generator",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start",
+		"lint": "biome lint app"
+	},
+	"dependencies": {
+		"@chakra-ui/react": "^2.8.2",
+		"@emotion/react": "^11.11.3",
+		"@emotion/styled": "^11.11.0",
+		"framer-motion": "^11.0.3",
+		"next": "14.1.0",
+		"react": "^18",
+		"react-dom": "^18"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "^1.5.3",
+		"@types/node": "^20",
+		"@types/react": "^18",
+		"@types/react-dom": "^18",
+		"typescript": "^5"
+	}
+}

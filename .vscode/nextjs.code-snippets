@@ -1,0 +1,36 @@
+{
+    "Route Handler": {
+        "prefix": "next-router-handler",
+        "body": [
+            ""
+        ],
+    },
+    "Client Component": {
+        "prefix": "next-client-component",
+        "body": [
+            ""use client";",
+            "import { Button } from "@chakra-ui/react";",
+            "",
+            "type Props = {};",
+            "",
+            "export const $1 = ({}: Props) => {",
+            "	return <Button>aaa</Button>;",
+            "};",
+        ],
+    },
+    "Root Server Component": {
+        "prefix": "next-root-server-component",
+        "body": [
+            ""use client";",
+            "import { Button } from "@chakra-ui/react";",
+            "",
+            "type Props = {};",
+            "",
+            "export const Hoge = ({}: Props) => {",
+            "	return <Button>aaa</Button>;",
+            "};",
+        ],
+    }
+}
+
+

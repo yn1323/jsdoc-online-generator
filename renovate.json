@@ -1,0 +1,19 @@
+{
+	"$schema": "https://docs.renovatebot.com/renovate-schema.json",
+	"extends": ["config:base"],
+	"timezone": "Asia/Tokyo",
+	"labels": ["renovate"],
+	"baseBranches": ["feature"],
+	"automerge": true,
+	"schedule": ["every weekend"],
+	"packageRules": [
+		{
+			"matchPackagePatterns": ["react"],
+			"addLabels": ["react"]
+		},
+		{
+			"matchPackagePatterns": ["@chakra-ui", "@emotion", "framer-motion"],
+			"addLabels": ["ChakraUI"]
+		}
+	]
+}
