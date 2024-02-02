@@ -1,10 +1,10 @@
-name: lint
+name: build
 
 on:
   - push
 
 jobs:
-  lint:
+  build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
