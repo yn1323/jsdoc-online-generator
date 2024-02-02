@@ -6,5 +6,6 @@
 		"source.organizeImports.biome": "explicit",
 		"source.addMissingImports": "explicit",
 		"source.organizeImports": "explicit"
-	}
+	},
+	"cSpell.words": ["gtag"]
 }

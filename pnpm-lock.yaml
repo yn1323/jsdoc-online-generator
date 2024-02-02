@@ -40,6 +40,9 @@ devDependencies:
   '@biomejs/biome':
     specifier: ^1.5.3
     version: 1.5.3
+  '@types/gtag.js':
+    specifier: ^0.0.18
+    version: 0.0.18
   '@types/jsdom':
     specifier: ^21.1.6
     version: 21.1.6
@@ -1537,6 +1540,10 @@ packages:
     dependencies:
       tslib: 2.6.2
     dev: false
+
+  /@types/gtag.js@0.0.18:
+    resolution: {integrity: sha512-GJxnIvuXuVhKaHfsOdzGipoOoXq72y3mdcncc9h6i6E7nlz89zBEj2wrLM7bqO5Xk9Lm2B94MwdQsSwRlaPSWw==}
+    dev: true
 
   /@types/jsdom@21.1.6:
     resolution: {integrity: sha512-/7kkMsC+/kMs7gAYmmBR9P0vGTnOoLhQhyhQJSlXGI5bzTHp6xdo0TtKWQAsz6pmSAeVqKSbqeyP6hytqr9FDw==}
