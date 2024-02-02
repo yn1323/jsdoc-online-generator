@@ -1,8 +1,15 @@
 import fs from "fs";
 
 export const createDirectory = (dirPath: string) => {
-	if (!fs.existsSync(dirPath)) {
-		fs.mkdirSync(dirPath, { recursive: true });
+	try {
+		if (!fs.existsSync(dirPath)) {
+			fs.mkdirSync(dirPath, { recursive: true });
+		}
+		return true;
+	} catch (e) {
+		console.log("createDirectory Error");
+		console.error(e);
+		return false;
 	}
 };
 
