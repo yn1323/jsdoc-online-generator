@@ -9,7 +9,6 @@ import {
 	FormLabel,
 	Textarea,
 } from "@chakra-ui/react";
-import { useRouter } from "next/navigation";
 import { useState, useTransition } from "react";
 
 const MaxTextLength = 4000;
@@ -22,7 +21,6 @@ export const TextEditor = ({ handleSuccess }: Props) => {
 	const [text, setText] = useState("");
 	const [isLoading, setIsLoading] = useState(false);
 	const { errorToast } = useCustomToast();
-	const router = useRouter();
 
 	const onClickButton = async () => {
 		if (text.length === 0) {

@@ -20,9 +20,11 @@ const BuildDirectory = "./jsdoc/build";
 export const jsdocGenerate = async (text: string) => {
 	const date = dateToTimestamp(new Date());
 
-	createDirectory("jsdoc");
-	createDirectory("jsdoc/raw");
-	createDirectory("jsdoc/build");
+	createDirectory("./jsdoc");
+	createDirectory("./jsdoc/raw");
+	createDirectory("./jsdoc/build");
+
+	return;
 
 	const writeResult = writeFileSync({
 		directory: RawDirectory,
