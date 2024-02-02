@@ -4,7 +4,7 @@
 	"private": true,
 	"scripts": {
 		"dev": "rimraf lib ./.next && next dev",
-		"build": "next build",
+		"build": "rimraf lib ./.next && next build",
 		"start": "next start",
 		"lint": "biome lint app"
 	},
