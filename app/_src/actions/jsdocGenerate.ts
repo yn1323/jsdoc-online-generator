@@ -19,6 +19,9 @@ const BuildDirectory = "./jsdoc/build";
 export const jsdocGenerate = async (text: string) => {
 	const date = dateToTimestamp(new Date());
 
+	//pwd
+	console.log(process.cwd());
+
 	const writeResult = await writeFileSync({
 		directory: RawDirectory,
 		fileName: `${date}`,
