@@ -23,13 +23,14 @@ export const jsdocGenerate = async (text: string) => {
 	createDirectory(RawDirectory);
 	createDirectory(BuildDirectory);
 
-	const writeResult = await writeFileSync({
+	const writeResult = writeFileSync({
 		directory: RawDirectory,
 		fileName: `${date}`,
 		text,
 	});
 
 	if (!writeResult) {
+		console.error("Failed to write file");
 		return false;
 	}
 
@@ -38,6 +39,7 @@ export const jsdocGenerate = async (text: string) => {
 	);
 
 	if (!createResult) {
+		console.error("Failed to create file");
 		return false;
 	}
 
