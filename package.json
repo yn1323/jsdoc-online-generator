@@ -3,8 +3,8 @@
 	"version": "0.1.0",
 	"private": true,
 	"scripts": {
-		"dev": "rimraf lib ./.next && next dev",
-		"build": "rimraf lib ./.next && next build",
+		"dev": "rimraf .next && next dev",
+		"build": "rimraf .next && next build",
 		"start": "next start",
 		"lint": "biome lint app"
 	},
