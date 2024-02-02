@@ -8,8 +8,8 @@
     "Client Component": {
         "prefix": "next-client-component",
         "body": [
-            ""use client";",
-            "import { Button } from "@chakra-ui/react";",
+            "'use client';",
+            "import { Button } from '@chakra-ui/react';",
             "",
             "type Props = {};",
             "",
@@ -21,8 +21,8 @@
     "Root Server Component": {
         "prefix": "next-root-server-component",
         "body": [
-            ""use client";",
-            "import { Button } from "@chakra-ui/react";",
+            "'use client';",
+            "import { Button } from '@chakra-ui/react';",
             "",
             "type Props = {};",
             "",
