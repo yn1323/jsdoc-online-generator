@@ -2,9 +2,7 @@ import fs from "fs";
 
 export const createDirectory = (dirPath: string) => {
 	try {
-		console.log("mogemoge");
 		if (!fs.existsSync(dirPath)) {
-			console.log("mogemoge2");
 			fs.mkdirSync(dirPath, { recursive: true });
 		}
 		return true;
