@@ -1,5 +1,11 @@
 import fs from "fs";
 
+export const createDirectory = (dirPath: string) => {
+	if (!fs.existsSync(dirPath)) {
+		fs.mkdirSync(dirPath, { recursive: true });
+	}
+};
+
 export const writeFileSync = ({
 	text,
 	fileName,
