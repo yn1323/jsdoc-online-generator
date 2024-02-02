@@ -1,0 +1,13 @@
+name: Delete file schedule
+
+on:
+  schedule:
+    - cron: '*/5 * * * *'
+
+jobs:
+  build:
+    name: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: curl
+        run: curl "${{ vars.DOMAIN }}/api/delete"
