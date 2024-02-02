@@ -3,6 +3,7 @@ import { Providers } from "@/app/_src/configs/Providers";
 import { Container } from "@/app/_src/layouts/Container";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import { Suspense } from "react";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,7 +21,9 @@ export default function RootLayout({
 	return (
 		<html lang="en">
 			<head>
-				<GoogleAnalytics />
+				<Suspense>
+					<GoogleAnalytics />
+				</Suspense>
 			</head>
 			<body>
 				<Providers>
