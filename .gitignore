@@ -36,5 +36,5 @@ yarn-error.log*
 next-env.d.ts
 
 # jsdoc
-# jsdoc/build
-# jsdoc/raw
+jsdoc/build
+jsdoc/raw
