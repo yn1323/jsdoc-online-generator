@@ -5,9 +5,9 @@ on:
     - cron: '*/5 * * * *'
 
 jobs:
-  build:
+  delete:
     name: build
     runs-on: ubuntu-latest
     steps:
       - name: curl
-        run: curl "${{ vars.DOMAIN }}/api/delete"
+        run: curl "${{ vars.DOMAIN }}api/delete"
