@@ -1,4 +1,5 @@
-import { Providers } from "@/app/_config/providers";
+import { Providers } from "@/app/_src/configs/Providers";
+import { Container } from "@/app/_src/layouts/Container";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 
@@ -17,7 +18,9 @@ export default function RootLayout({
 	return (
 		<html lang="en">
 			<body>
-				<Providers>{children}</Providers>
+				<Providers>
+					<Container serverComponent={children} />
+				</Providers>
 			</body>
 		</html>
 	);
