@@ -60,7 +60,7 @@ export const TextEditor = ({ handleSuccess }: Props) => {
 
 	return (
 		<form>
-			<FormControl id="Generate From File">
+			<FormControl id="Generate from text">
 				<FormLabel>Generate from text</FormLabel>
 				<Textarea onChange={(e) => onChangeText(e.target.value)} h={400} />
 				<Box textAlign="right" mt={4}>
