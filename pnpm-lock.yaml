@@ -44,8 +44,8 @@ devDependencies:
     specifier: ^1.41.2
     version: 1.41.2
   '@types/gtag.js':
-    specifier: ^0.0.18
-    version: 0.0.18
+    specifier: ^0.0.19
+    version: 0.0.19
   '@types/jsdom':
     specifier: ^21.1.6
     version: 21.1.6
@@ -1552,8 +1552,8 @@ packages:
       tslib: 2.6.2
     dev: false
 
-  /@types/gtag.js@0.0.18:
-    resolution: {integrity: sha512-GJxnIvuXuVhKaHfsOdzGipoOoXq72y3mdcncc9h6i6E7nlz89zBEj2wrLM7bqO5Xk9Lm2B94MwdQsSwRlaPSWw==}
+  /@types/gtag.js@0.0.19:
+    resolution: {integrity: sha512-KHoDzrf9rSd0mooKN576PjExpdk/XRrNu4RQnmigsScSTSidwyOUe9kDrHz9UPKjiBrx2QEsSkexbJSgS0j72w==}
     dev: true
 
   /@types/jsdom@21.1.6:
