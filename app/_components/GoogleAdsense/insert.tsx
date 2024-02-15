@@ -14,7 +14,7 @@ declare global {
   }
 }
 
-const GoogleAdsense = ({
+export const GoogleAdsenseInsert = ({
   client,
   slot,
   style = { display: "block" },
@@ -48,6 +48,7 @@ const GoogleAdsense = ({
         className="adsbygoogle"
         style={style}
         data-ad-client={process.env.NEXT_PUBLIC_GOOGLE_ADSENSE_CLIENT_ID}
+        // TODO: need slot id
         data-ad-slot={slot}
         data-ad-format="auto"
         data-full-width-responsive="true"
@@ -55,5 +56,3 @@ const GoogleAdsense = ({
     </div>
   );
 };
-
-export default GoogleAdsense;

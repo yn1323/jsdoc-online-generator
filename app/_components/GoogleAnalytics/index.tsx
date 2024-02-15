@@ -5,7 +5,7 @@ import { usePathname, useSearchParams } from "next/navigation";
 import Script from "next/script";
 import { useEffect } from "react";
 
-const GoogleAnalytics = () => {
+export const GoogleAnalytics = () => {
   const pathname = usePathname();
   const searchParams = useSearchParams();
 
@@ -36,5 +36,3 @@ const GoogleAnalytics = () => {
     </>
   );
 };
-
-export default GoogleAnalytics;

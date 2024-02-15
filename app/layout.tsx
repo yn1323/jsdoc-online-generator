@@ -1,4 +1,5 @@
-import GoogleAnalytics from "@/app/_components/GoogleAnalytics";
+import { GoogleAdsenseHead } from "@/app/_components/GoogleAdsense/head";
+import { GoogleAnalytics } from "@/app/_components/GoogleAnalytics";
 import { Providers } from "@/app/_src/configs/Providers";
 import { Container } from "@/app/_src/layouts/Container";
 import type { Metadata } from "next";
@@ -25,6 +26,7 @@ export default function RootLayout({
       <head>
         <Suspense>
           <GoogleAnalytics />
+          <GoogleAdsenseHead />
         </Suspense>
       </head>
       <body>
