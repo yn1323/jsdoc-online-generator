@@ -4,16 +4,16 @@ import { TextEditor } from "@/app/_components/TextEditor";
 import { Box } from "@chakra-ui/react";
 
 export const Form = () => {
-	const handleSuccess = (id: number) => {
-		window.open(`generated/${id}`);
-	};
+  const handleSuccess = (id: number) => {
+    window.open(`generated/${id}`);
+  };
 
-	return (
-		<Box>
-			<FileUploader handleSuccess={handleSuccess} />
-			<Box pt={10}>
-				<TextEditor handleSuccess={handleSuccess} />
-			</Box>
-		</Box>
-	);
+  return (
+    <Box>
+      <FileUploader handleSuccess={handleSuccess} />
+      <Box pt={10}>
+        <TextEditor handleSuccess={handleSuccess} />
+      </Box>
+    </Box>
+  );
 };
