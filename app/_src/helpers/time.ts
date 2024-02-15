@@ -1,3 +1,3 @@
 export const dateToTimestamp = (date: Date) => {
-	return date.getTime();
+  return date.getTime();
 };
