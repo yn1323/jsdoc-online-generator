@@ -11,6 +11,7 @@ export const metadata: Metadata = {
 	title: "JSDoc Document Online Generator",
 	description:
 		"Generates JSDoc document for free and online. Uploaded JSDoc will be deleted in 30 minutes for security reasons. ; )",
+	"google-site-verification": "5W6IUuhra5GjnEjGoGzrq2uuLYcpfuaF0l02MtvM1tI"
 };
 
 export default function RootLayout({
