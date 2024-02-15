@@ -5,7 +5,10 @@ import type { Metadata } from "next";
 import { Suspense } from "react";
 export const metadata: Metadata = {
   verification: {
-    google: "5W6IUuhra5GjnEjGoGzrq2uuLYcpfuaF0l02MtvM1tI",
+    google:
+      process.env.NODE_ENV !== "production"
+        ? process.env.NEXT_PUBLIC_SEARCH_CONSOLE_ID
+        : "",
   },
   title: "JSDoc Document Online Generator",
   description:
