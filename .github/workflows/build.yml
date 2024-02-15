@@ -36,3 +36,5 @@ jobs:
         run: pnpm build
         env: 
           NEXT_PUBLIC_GA_ID: ${{ secrets.NEXT_PUBLIC_GA_ID }}
+          NEXT_PUBLIC_SEARCH_CONSOLE_ID: ${{ secrets.NEXT_PUBLIC_SEARCH_CONSOLE_ID }}
+          NEXT_PUBLIC_GOOGLE_ADSENSE_CLIENT_ID: ${{ secrets.NEXT_PUBLIC_GOOGLE_ADSENSE_CLIENT_ID }}

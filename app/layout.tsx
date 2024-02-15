@@ -1,11 +1,15 @@
-import GoogleAnalytics from "@/app/_components/GoogleAnalytics";
+import { GoogleAdsenseHead } from "@/app/_components/GoogleAdsense/head";
+import { GoogleAnalytics } from "@/app/_components/GoogleAnalytics";
 import { Providers } from "@/app/_src/configs/Providers";
 import { Container } from "@/app/_src/layouts/Container";
 import type { Metadata } from "next";
 import { Suspense } from "react";
 export const metadata: Metadata = {
   verification: {
-    google: "5W6IUuhra5GjnEjGoGzrq2uuLYcpfuaF0l02MtvM1tI",
+    google:
+      process.env.NODE_ENV !== "production"
+        ? process.env.NEXT_PUBLIC_SEARCH_CONSOLE_ID
+        : "",
   },
   title: "JSDoc Document Online Generator",
   description:
@@ -22,6 +26,7 @@ export default function RootLayout({
       <head>
         <Suspense>
           <GoogleAnalytics />
+          <GoogleAdsenseHead />
         </Suspense>
       </head>
       <body>
