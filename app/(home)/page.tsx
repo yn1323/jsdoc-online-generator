@@ -1,4 +1,4 @@
-import { Form } from "@/app/(root)/(home)/Form";
+import { Form } from "@/app/(home)/Form";
 import { Fragment } from "react";
 
 export default function Home() {
