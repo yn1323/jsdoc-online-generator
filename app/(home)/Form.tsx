@@ -9,7 +9,7 @@ export const Form = () => {
   };
 
   return (
-    <Box>
+    <Box id="form">
       <FileUploader handleSuccess={handleSuccess} />
       <Box pt={10}>
         <TextEditor handleSuccess={handleSuccess} />

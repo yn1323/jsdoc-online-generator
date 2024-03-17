@@ -64,7 +64,11 @@ export const TextEditor = ({ handleSuccess }: Props) => {
         <FormLabel>Generate from text</FormLabel>
         <Textarea onChange={(e) => onChangeText(e.target.value)} h={400} />
         <Box textAlign="right" mt={4}>
-          <Button onClick={() => onClickButton()} isLoading={isLoading}>
+          <Button
+            onClick={() => onClickButton()}
+            isLoading={isLoading}
+            colorScheme="teal"
+          >
             Generate
           </Button>
         </Box>

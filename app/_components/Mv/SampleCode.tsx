@@ -18,7 +18,7 @@ const container = {
 
 const code = `/**
  * Button label
- * @type {text} button label
+ * @type {string} button label
  */
 const buttonLabel = "Click me";
 
