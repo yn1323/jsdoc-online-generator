@@ -1,6 +1,6 @@
 "use client";
 
-import { HStack, IconButton, Heading as LibHeading } from "@chakra-ui/react";
+import { HStack, Heading as LibHeading, IconButton } from "@chakra-ui/react";
 import { FaGithub } from "react-icons/fa";
 
 export const Heading = () => {
