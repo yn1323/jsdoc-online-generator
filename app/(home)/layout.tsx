@@ -1,4 +1,3 @@
-import { Heading } from "@/app/_components/Heading";
 import { Box } from "@chakra-ui/react";
 
 export default function Layout({
@@ -8,7 +7,6 @@ export default function Layout({
 }>) {
   return (
     <main>
-      <Heading />
       <Box p="4">{children}</Box>
     </main>
   );

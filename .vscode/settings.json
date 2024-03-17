@@ -7,5 +7,6 @@
     "source.addMissingImports": "explicit",
     "source.organizeImports": "explicit"
   },
-  "cSpell.words": ["adsbygoogle", "Adsense", "gtag"]
+  "cSpell.words": ["adsbygoogle", "Adsense", "gtag"],
+  "terminal.integrated.gpuAcceleration": "on"
 }

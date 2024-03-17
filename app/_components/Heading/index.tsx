@@ -5,7 +5,7 @@ import { FaGithub } from "react-icons/fa";
 
 export const Heading = () => {
   return (
-    <HStack p={4} justifyContent="space-between" w="100%">
+    <HStack p={4} justifyContent="space-between" w="100%" shadow="md">
       <LibHeading as="h1" size="lg">
         JSDoc Online Generator
       </LibHeading>
