@@ -12,7 +12,7 @@ export const Container = ({ serverComponent }: Props) => {
   const { isPC, breakpoints } = useScreenSize();
 
   return (
-    <VStack w="100vw">
+    <VStack w="100%">
       <Heading />
       <Box w={isPC ? breakpoints : "100%"}>{serverComponent}</Box>
     </VStack>

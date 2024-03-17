@@ -16,7 +16,7 @@ export const Heading = () => {
   const router = useRouter();
 
   return (
-    <Center p={4} w="100%" shadow="md">
+    <Center py={4} w="100%" shadow="md">
       <Box w={isPC ? breakpoints : "100%"}>
         <HStack justifyContent="space-between" w="100%">
           <LibHeading
