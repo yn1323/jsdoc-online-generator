@@ -1,6 +1,7 @@
 "use client";
 
 import { Heading } from "@/app/_components/Heading";
+import { Mv } from "@/app/_components/Mv";
 import { useScreenSize } from "@/app/_src/hooks/ui/useScreenSize";
 import { Box, VStack } from "@chakra-ui/react";
 
@@ -14,6 +15,7 @@ export const Container = ({ serverComponent }: Props) => {
   return (
     <VStack w="100vw">
       <Heading />
+      <Mv />
       <Box w={isPC ? breakpoints : "100%"}>{serverComponent}</Box>
     </VStack>
   );
