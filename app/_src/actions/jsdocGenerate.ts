@@ -1,5 +1,6 @@
 "use server";
 
+import { execSync } from "child_process";
 import {
   createDirectory,
   deleteDirectory,
@@ -9,7 +10,6 @@ import {
   writeFileSync,
 } from "@/app/_src/actions/io";
 import { dateToTimestamp } from "@/app/_src/helpers/time";
-import { execSync } from "child_process";
 import JSDom from "jsdom";
 
 const ExpiredMinutes = 30;
@@ -55,7 +55,7 @@ export const deleteExpiredFiles = async () => {
 
   const allFilesTimestamp = allFiles
     .filter((f) => f !== ".gitkeep")
-    .map((f) => parseInt(f.replace(".js", ""), 10));
+    .map((f) => Number.parseInt(f.replace(".js", ""), 10));
 
   const expired = allFilesTimestamp.filter(
     (t) => date - t > ExpiredMinutesInTimestamp,

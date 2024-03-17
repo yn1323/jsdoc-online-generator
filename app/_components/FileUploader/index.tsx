@@ -36,7 +36,11 @@ export const FileUploader = ({ handleSuccess }: Props) => {
     <form>
       <FormControl id="Generate From File">
         <FormLabel>Generate from file</FormLabel>
-        <Button onClick={() => onClickButton()} isLoading={isLoading}>
+        <Button
+          onClick={() => onClickButton()}
+          isLoading={isLoading}
+          colorScheme="teal"
+        >
           File Select
         </Button>
         <InputGroup>

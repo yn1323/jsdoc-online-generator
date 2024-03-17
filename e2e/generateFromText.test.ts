@@ -13,5 +13,8 @@ test("Generate from text", async ({ page }) => {
   await page.getByRole("button", { name: "Generate" }).click();
   const page1 = await page1Promise;
   await page1.getByRole("link", { name: "reply" }).click();
-  await page1.locator("h1").click();
+  const title = await page1.getByRole("heading", {
+    name: "JSDoc Online Generator",
+  });
+  await title.click();
 });
