@@ -32,9 +32,9 @@ export const writeFileSync = ({
   }
 };
 
-export const getAllFiles = (dirPath: string) => {
+export const getAllFiles = (dirPath: string): string[] | false => {
   try {
-    return fs.readdirSync(dirPath).map((f) => f);
+    return fs.readdirSync(dirPath).map((f: string) => f);
   } catch (e) {
     console.log("getAllFiles Error");
     console.error(e);
