@@ -1,12 +1,20 @@
 "use client";
 
-import { HStack, Heading as LibHeading, IconButton } from "@chakra-ui/react";
+import { HStack, IconButton, Heading as LibHeading } from "@chakra-ui/react";
+import { useRouter } from "next/navigation";
 import { FaGithub } from "react-icons/fa";
 
 export const Heading = () => {
+  const router = useRouter();
+
   return (
     <HStack p={4} justifyContent="space-between" w="100%" shadow="md">
-      <LibHeading as="h1" size="lg">
+      <LibHeading
+        as="h1"
+        size="lg"
+        cursor="pointer"
+        onClick={() => router.push("/")}
+      >
         JSDoc Online Generator
       </LibHeading>
       <a
