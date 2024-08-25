@@ -22,7 +22,7 @@
     "@uiw/react-textarea-code-editor": "^3.0.2",
     "framer-motion": "^11.0.3",
     "jsdoc": "3.6.11",
-    "jsdom": "^24.0.0",
+    "jsdom": "^25.0.0",
     "next": "14.2.6",
     "react": "^18",
     "react-dom": "^18",
