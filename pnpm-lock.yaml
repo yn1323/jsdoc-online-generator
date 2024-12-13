@@ -66,7 +66,7 @@ devDependencies:
     version: 19.0.1
   '@types/react-dom':
     specifier: ^19.0.0
-    version: 19.0.1
+    version: 19.0.2(@types/react@19.0.1)
   rimraf:
     specifier: ^6.0.0
     version: 6.0.1
@@ -724,8 +724,10 @@ packages:
     resolution: {integrity: sha512-rlAnzkW2sZOjbqZ743IHUhFcvzaGbqijwOu8QZnZCjfQzBqFE3s4lOTJEsxikImav9uzz/42I+O7YUs1mWgMlg==}
     dev: false
 
-  /@types/react-dom@19.0.1:
-    resolution: {integrity: sha512-hljHij7MpWPKF6u5vojuyfV0YA4YURsQG7KT6SzV0Zs2BXAtgdTxG6A229Ub/xiWV4w/7JL8fi6aAyjshH4meA==}
+  /@types/react-dom@19.0.2(@types/react@19.0.1):
+    resolution: {integrity: sha512-c1s+7TKFaDRRxr1TxccIX2u7sfCnc3RxkVyBIUA2lCpyqCF+QoAwQ/CBg7bsMdVwP120HEH143VQezKtef5nCg==}
+    peerDependencies:
+      '@types/react': ^19.0.0
     dependencies:
       '@types/react': 19.0.1
     dev: true
