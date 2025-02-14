@@ -10,7 +10,7 @@ dependencies:
     version: 2.2.4(@chakra-ui/react@2.10.5)(react@19.0.0)
   '@chakra-ui/react':
     specifier: ^2.8.2
-    version: 2.10.5(@emotion/react@11.14.0)(@emotion/styled@11.14.0)(@types/react@19.0.8)(framer-motion@12.4.1)(react-dom@19.0.0)(react@19.0.0)
+    version: 2.10.5(@emotion/react@11.14.0)(@emotion/styled@11.14.0)(@types/react@19.0.8)(framer-motion@12.4.3)(react-dom@19.0.0)(react@19.0.0)
   '@emotion/react':
     specifier: ^11.11.3
     version: 11.14.0(@types/react@19.0.8)(react@19.0.0)
@@ -19,10 +19,10 @@ dependencies:
     version: 11.14.0(@emotion/react@11.14.0)(@types/react@19.0.8)(react@19.0.0)
   '@uiw/react-textarea-code-editor':
     specifier: ^3.0.2
-    version: 3.1.0(@babel/runtime@7.26.7)(react-dom@19.0.0)(react@19.0.0)
+    version: 3.1.0(@babel/runtime@7.26.9)(react-dom@19.0.0)(react@19.0.0)
   framer-motion:
     specifier: ^12.0.0
-    version: 12.4.1(react-dom@19.0.0)(react@19.0.0)
+    version: 12.4.3(react-dom@19.0.0)(react@19.0.0)
   jsdoc:
     specifier: 3.6.11
     version: 3.6.11
@@ -159,8 +159,8 @@ packages:
       regenerator-runtime: 0.14.1
     dev: false
 
-  /@babel/runtime@7.26.7:
-    resolution: {integrity: sha512-AOPI3D+a8dXnja+iwsUqGRjr1BbZIe771sXdapOtYI531gSqpi92vXivKcq2asu/DFpdl1ceFAKZyRzK2PCVcQ==}
+  /@babel/runtime@7.26.9:
+    resolution: {integrity: sha512-aA63XwOkcl4xxQa3HjPMqOP6LiK0ZDv3mUPYEFXkpHbaFjtGggE1A61FjFzJnB+p7/oy2gA8E+rcBNl/zC1tMg==}
     engines: {node: '>=6.9.0'}
     dependencies:
       regenerator-runtime: 0.14.1
@@ -317,11 +317,11 @@ packages:
       '@chakra-ui/react': '>=2.0.0'
       react: '>=18'
     dependencies:
-      '@chakra-ui/react': 2.10.5(@emotion/react@11.14.0)(@emotion/styled@11.14.0)(@types/react@19.0.8)(framer-motion@12.4.1)(react-dom@19.0.0)(react@19.0.0)
+      '@chakra-ui/react': 2.10.5(@emotion/react@11.14.0)(@emotion/styled@11.14.0)(@types/react@19.0.8)(framer-motion@12.4.3)(react-dom@19.0.0)(react@19.0.0)
       react: 19.0.0
     dev: false
 
-  /@chakra-ui/react@2.10.5(@emotion/react@11.14.0)(@emotion/styled@11.14.0)(@types/react@19.0.8)(framer-motion@12.4.1)(react-dom@19.0.0)(react@19.0.0):
+  /@chakra-ui/react@2.10.5(@emotion/react@11.14.0)(@emotion/styled@11.14.0)(@types/react@19.0.8)(framer-motion@12.4.3)(react-dom@19.0.0)(react@19.0.0):
     resolution: {integrity: sha512-wCetfxT1iXWNmAwSLF1d0zyTQOQYswA3YJcw05grY1XEngO6956PScRB0Or5ZQJ6rGMcz5pcUhVgrb3q7AE+gQ==}
     peerDependencies:
       '@emotion/react': '>=11'
@@ -339,7 +339,7 @@ packages:
       '@popperjs/core': 2.11.8
       '@zag-js/focus-visible': 0.31.1
       aria-hidden: 1.2.4
-      framer-motion: 12.4.1(react-dom@19.0.0)(react@19.0.0)
+      framer-motion: 12.4.3(react-dom@19.0.0)(react@19.0.0)
       react: 19.0.0
       react-dom: 19.0.0(react@19.0.0)
       react-fast-compare: 3.2.2
@@ -809,14 +809,14 @@ packages:
     resolution: {integrity: sha512-ko/gIFJRv177XgZsZcBwnqJN5x/Gien8qNOn0D5bQU/zAzVf9Zt3BlcUiLqhV9y4ARk0GbT3tnUiPNgnTXzc/Q==}
     dev: false
 
-  /@uiw/react-textarea-code-editor@3.1.0(@babel/runtime@7.26.7)(react-dom@19.0.0)(react@19.0.0):
+  /@uiw/react-textarea-code-editor@3.1.0(@babel/runtime@7.26.9)(react-dom@19.0.0)(react@19.0.0):
     resolution: {integrity: sha512-lcAb5foG8K32ntg8dzY0A8vFyQP33SxuN8oatVYxJaxf2WDeiV0Jzk8/8lsOzthafEpgxc/X3RS2elYmvHn8TQ==}
     peerDependencies:
       '@babel/runtime': '>=7.10.0'
       react: '>=16.9.0'
       react-dom: '>=16.9.0'
     dependencies:
-      '@babel/runtime': 7.26.7
+      '@babel/runtime': 7.26.9
       react: 19.0.0
       react-dom: 19.0.0(react@19.0.0)
       rehype: 13.0.2
@@ -1151,8 +1151,8 @@ packages:
       mime-types: 2.1.35
     dev: false
 
-  /framer-motion@12.4.1(react-dom@19.0.0)(react@19.0.0):
-    resolution: {integrity: sha512-5Ijbea3topSZjadQ0hgc/TcWj2ldMZmNREM7RvAhvsThYOA1HHOA8TT1yKvMu1YXP3jWaFwoZ6Vo9Nw+DUZrzA==}
+  /framer-motion@12.4.3(react-dom@19.0.0)(react@19.0.0):
+    resolution: {integrity: sha512-rsMeO7w3dKyNG09o3cGwSH49iHU+VgDmfSSfsX+wfkO3zDA6WWkh4sUsMXd155YROjZP+7FTIhDrBYfgZeHjKQ==}
     peerDependencies:
       '@emotion/is-prop-valid': '*'
       react: ^18.0.0 || ^19.0.0
