@@ -10,7 +10,7 @@ dependencies:
     version: 2.2.4(@chakra-ui/react@2.10.5)(react@19.0.0)
   '@chakra-ui/react':
     specifier: ^2.8.2
-    version: 2.10.5(@emotion/react@11.14.0)(@emotion/styled@11.14.0)(@types/react@19.0.10)(framer-motion@12.4.3)(react-dom@19.0.0)(react@19.0.0)
+    version: 2.10.5(@emotion/react@11.14.0)(@emotion/styled@11.14.0)(@types/react@19.0.10)(framer-motion@12.4.7)(react-dom@19.0.0)(react@19.0.0)
   '@emotion/react':
     specifier: ^11.11.3
     version: 11.14.0(@types/react@19.0.10)(react@19.0.0)
@@ -22,7 +22,7 @@ dependencies:
     version: 3.1.0(@babel/runtime@7.26.9)(react-dom@19.0.0)(react@19.0.0)
   framer-motion:
     specifier: ^12.0.0
-    version: 12.4.3(react-dom@19.0.0)(react@19.0.0)
+    version: 12.4.7(react-dom@19.0.0)(react@19.0.0)
   jsdoc:
     specifier: 3.6.11
     version: 3.6.11
@@ -317,11 +317,11 @@ packages:
       '@chakra-ui/react': '>=2.0.0'
       react: '>=18'
     dependencies:
-      '@chakra-ui/react': 2.10.5(@emotion/react@11.14.0)(@emotion/styled@11.14.0)(@types/react@19.0.10)(framer-motion@12.4.3)(react-dom@19.0.0)(react@19.0.0)
+      '@chakra-ui/react': 2.10.5(@emotion/react@11.14.0)(@emotion/styled@11.14.0)(@types/react@19.0.10)(framer-motion@12.4.7)(react-dom@19.0.0)(react@19.0.0)
       react: 19.0.0
     dev: false
 
-  /@chakra-ui/react@2.10.5(@emotion/react@11.14.0)(@emotion/styled@11.14.0)(@types/react@19.0.10)(framer-motion@12.4.3)(react-dom@19.0.0)(react@19.0.0):
+  /@chakra-ui/react@2.10.5(@emotion/react@11.14.0)(@emotion/styled@11.14.0)(@types/react@19.0.10)(framer-motion@12.4.7)(react-dom@19.0.0)(react@19.0.0):
     resolution: {integrity: sha512-wCetfxT1iXWNmAwSLF1d0zyTQOQYswA3YJcw05grY1XEngO6956PScRB0Or5ZQJ6rGMcz5pcUhVgrb3q7AE+gQ==}
     peerDependencies:
       '@emotion/react': '>=11'
@@ -339,7 +339,7 @@ packages:
       '@popperjs/core': 2.11.8
       '@zag-js/focus-visible': 0.31.1
       aria-hidden: 1.2.4
-      framer-motion: 12.4.3(react-dom@19.0.0)(react@19.0.0)
+      framer-motion: 12.4.7(react-dom@19.0.0)(react@19.0.0)
       react: 19.0.0
       react-dom: 19.0.0(react@19.0.0)
       react-fast-compare: 3.2.2
@@ -1151,8 +1151,8 @@ packages:
       mime-types: 2.1.35
     dev: false
 
-  /framer-motion@12.4.3(react-dom@19.0.0)(react@19.0.0):
-    resolution: {integrity: sha512-rsMeO7w3dKyNG09o3cGwSH49iHU+VgDmfSSfsX+wfkO3zDA6WWkh4sUsMXd155YROjZP+7FTIhDrBYfgZeHjKQ==}
+  /framer-motion@12.4.7(react-dom@19.0.0)(react@19.0.0):
+    resolution: {integrity: sha512-VhrcbtcAMXfxlrjeHPpWVu2+mkcoR31e02aNSR7OUS/hZAciKa8q6o3YN2mA1h+jjscRsSyKvX6E1CiY/7OLMw==}
     peerDependencies:
       '@emotion/is-prop-valid': '*'
       react: ^18.0.0 || ^19.0.0
@@ -1165,7 +1165,7 @@ packages:
       react-dom:
         optional: true
     dependencies:
-      motion-dom: 12.0.0
+      motion-dom: 12.4.5
       motion-utils: 12.0.0
       react: 19.0.0
       react-dom: 19.0.0(react@19.0.0)
@@ -1637,8 +1637,8 @@ packages:
     hasBin: true
     dev: false
 
-  /motion-dom@12.0.0:
-    resolution: {integrity: sha512-CvYd15OeIR6kHgMdonCc1ihsaUG4MYh/wrkz8gZ3hBX/uamyZCXN9S9qJoYF03GqfTt7thTV/dxnHYX4+55vDg==}
+  /motion-dom@12.4.5:
+    resolution: {integrity: sha512-Q2xmhuyYug1CGTo0jdsL05EQ4RhIYXlggFS/yPhQQRNzbrhjKQ1tbjThx5Plv68aX31LsUQRq4uIkuDxdO5vRQ==}
     dependencies:
       motion-utils: 12.0.0
     dev: false
