@@ -19,7 +19,7 @@ dependencies:
     version: 11.14.0(@emotion/react@11.14.0)(@types/react@19.1.2)(react@19.1.0)
   '@uiw/react-textarea-code-editor':
     specifier: ^3.0.2
-    version: 3.1.0(@babel/runtime@7.27.0)(react-dom@19.1.0)(react@19.1.0)
+    version: 3.1.0(@babel/runtime@7.27.1)(react-dom@19.1.0)(react@19.1.0)
   framer-motion:
     specifier: ^12.0.0
     version: 12.9.2(react-dom@19.1.0)(react@19.1.0)
@@ -60,7 +60,7 @@ devDependencies:
     version: 21.1.7
   '@types/node':
     specifier: ^22.0.0
-    version: 22.15.2
+    version: 22.15.3
   '@types/react':
     specifier: ^19.0.0
     version: 19.1.2
@@ -166,11 +166,9 @@ packages:
       regenerator-runtime: 0.14.1
     dev: false
 
-  /@babel/runtime@7.27.0:
-    resolution: {integrity: sha512-VtPOkrdPHZsKc/clNqyi9WUA8TINkZ4cGk63UUE3u4pmB2k+ZMQRDuIOagv8UVd6j7k0T3+RRIb7beKTebNbcw==}
+  /@babel/runtime@7.27.1:
+    resolution: {integrity: sha512-1x3D2xEk2fRo3PAhwQwu5UubzgiVWSXTBfWpVd2Mx2AzRqJuDJCsgaDVZ7HB5iGzDW1Hl1sWN2mFyKjmR9uAog==}
     engines: {node: '>=6.9.0'}
-    dependencies:
-      regenerator-runtime: 0.14.1
     dev: false
 
   /@babel/template@7.25.9:
@@ -741,7 +739,7 @@ packages:
   /@types/jsdom@21.1.7:
     resolution: {integrity: sha512-yOriVnggzrnQ3a9OKOCxaVuSug3w3/SbOj5i7VwXWZEyUNl3bLF9V3MfxGbZKuwqJOQyRfqXyROBB1CoZLFWzA==}
     dependencies:
-      '@types/node': 22.15.2
+      '@types/node': 22.15.3
       '@types/tough-cookie': 4.0.5
       parse5: 7.1.2
     dev: true
@@ -777,8 +775,8 @@ packages:
     resolution: {integrity: sha512-6L6VymKTzYSrEf4Nev4Xa1LCHKrlTlYCBMTlQKFuddo1CvQcE52I0mwfOJayueUC7MJuXOeHTcIU683lzd0cUA==}
     dev: false
 
-  /@types/node@22.15.2:
-    resolution: {integrity: sha512-uKXqKN9beGoMdBfcaTY1ecwz6ctxuJAcUlwE55938g0ZJ8lRxwAZqRz2AJ4pzpt5dHdTPMB863UZ0ESiFUcP7A==}
+  /@types/node@22.15.3:
+    resolution: {integrity: sha512-lX7HFZeHf4QG/J7tBZqrCAXwz9J5RD56Y6MpP0eJkka8p+K0RY/yBTW7CYFJ4VGCclxqOLKmiGP5juQc6MKgcw==}
     dependencies:
       undici-types: 6.21.0
     dev: true
@@ -816,14 +814,14 @@ packages:
     resolution: {integrity: sha512-ko/gIFJRv177XgZsZcBwnqJN5x/Gien8qNOn0D5bQU/zAzVf9Zt3BlcUiLqhV9y4ARk0GbT3tnUiPNgnTXzc/Q==}
     dev: false
 
-  /@uiw/react-textarea-code-editor@3.1.0(@babel/runtime@7.27.0)(react-dom@19.1.0)(react@19.1.0):
+  /@uiw/react-textarea-code-editor@3.1.0(@babel/runtime@7.27.1)(react-dom@19.1.0)(react@19.1.0):
     resolution: {integrity: sha512-lcAb5foG8K32ntg8dzY0A8vFyQP33SxuN8oatVYxJaxf2WDeiV0Jzk8/8lsOzthafEpgxc/X3RS2elYmvHn8TQ==}
     peerDependencies:
       '@babel/runtime': '>=7.10.0'
       react: '>=16.9.0'
       react-dom: '>=16.9.0'
     dependencies:
-      '@babel/runtime': 7.27.0
+      '@babel/runtime': 7.27.1
       react: 19.1.0
       react-dom: 19.1.0(react@19.1.0)
       rehype: 13.0.2
