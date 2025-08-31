@@ -10,13 +10,13 @@ dependencies:
     version: 2.2.4(@chakra-ui/react@2.10.9)(react@19.1.1)
   '@chakra-ui/react':
     specifier: ^2.8.2
-    version: 2.10.9(@emotion/react@11.14.0)(@emotion/styled@11.14.1)(@types/react@19.1.11)(framer-motion@12.23.12)(react-dom@19.1.1)(react@19.1.1)
+    version: 2.10.9(@emotion/react@11.14.0)(@emotion/styled@11.14.1)(@types/react@19.1.12)(framer-motion@12.23.12)(react-dom@19.1.1)(react@19.1.1)
   '@emotion/react':
     specifier: ^11.11.3
-    version: 11.14.0(@types/react@19.1.11)(react@19.1.1)
+    version: 11.14.0(@types/react@19.1.12)(react@19.1.1)
   '@emotion/styled':
     specifier: ^11.11.0
-    version: 11.14.1(@emotion/react@11.14.0)(@types/react@19.1.11)(react@19.1.1)
+    version: 11.14.1(@emotion/react@11.14.0)(@types/react@19.1.12)(react@19.1.1)
   '@uiw/react-textarea-code-editor':
     specifier: ^3.0.2
     version: 3.1.1(@babel/runtime@7.28.3)(react-dom@19.1.1)(react@19.1.1)
@@ -63,10 +63,10 @@ devDependencies:
     version: 22.17.2
   '@types/react':
     specifier: ^19.0.0
-    version: 19.1.11
+    version: 19.1.12
   '@types/react-dom':
     specifier: ^19.0.0
-    version: 19.1.7(@types/react@19.1.11)
+    version: 19.1.9(@types/react@19.1.12)
   rimraf:
     specifier: ^6.0.0
     version: 6.0.1
@@ -325,11 +325,11 @@ packages:
       '@chakra-ui/react': '>=2.0.0'
       react: '>=18'
     dependencies:
-      '@chakra-ui/react': 2.10.9(@emotion/react@11.14.0)(@emotion/styled@11.14.1)(@types/react@19.1.11)(framer-motion@12.23.12)(react-dom@19.1.1)(react@19.1.1)
+      '@chakra-ui/react': 2.10.9(@emotion/react@11.14.0)(@emotion/styled@11.14.1)(@types/react@19.1.12)(framer-motion@12.23.12)(react-dom@19.1.1)(react@19.1.1)
       react: 19.1.1
     dev: false
 
-  /@chakra-ui/react@2.10.9(@emotion/react@11.14.0)(@emotion/styled@11.14.1)(@types/react@19.1.11)(framer-motion@12.23.12)(react-dom@19.1.1)(react@19.1.1):
+  /@chakra-ui/react@2.10.9(@emotion/react@11.14.0)(@emotion/styled@11.14.1)(@types/react@19.1.12)(framer-motion@12.23.12)(react-dom@19.1.1)(react@19.1.1):
     resolution: {integrity: sha512-lhdcgoocOiURwBNR3L8OioCNIaGCZqRfuKioLyaQLjOanl4jr0PQclsGb+w0cmito252vEWpsz2xRqF7y+Flrw==}
     peerDependencies:
       '@emotion/react': '>=11'
@@ -342,8 +342,8 @@ packages:
       '@chakra-ui/styled-system': 2.12.4(react@19.1.1)
       '@chakra-ui/theme': 3.4.9(@chakra-ui/styled-system@2.12.4)(react@19.1.1)
       '@chakra-ui/utils': 2.2.5(react@19.1.1)
-      '@emotion/react': 11.14.0(@types/react@19.1.11)(react@19.1.1)
-      '@emotion/styled': 11.14.1(@emotion/react@11.14.0)(@types/react@19.1.11)(react@19.1.1)
+      '@emotion/react': 11.14.0(@types/react@19.1.12)(react@19.1.1)
+      '@emotion/styled': 11.14.1(@emotion/react@11.14.0)(@types/react@19.1.12)(react@19.1.1)
       '@popperjs/core': 2.11.8
       '@zag-js/focus-visible': 0.31.1
       aria-hidden: 1.2.6
@@ -351,8 +351,8 @@ packages:
       react: 19.1.1
       react-dom: 19.1.1(react@19.1.1)
       react-fast-compare: 3.2.2
-      react-focus-lock: 2.13.6(@types/react@19.1.11)(react@19.1.1)
-      react-remove-scroll: 2.7.0(@types/react@19.1.11)(react@19.1.1)
+      react-focus-lock: 2.13.6(@types/react@19.1.12)(react@19.1.1)
+      react-remove-scroll: 2.7.0(@types/react@19.1.12)(react@19.1.1)
     transitivePeerDependencies:
       - '@types/react'
     dev: false
@@ -487,7 +487,7 @@ packages:
     resolution: {integrity: sha512-30FAj7/EoJ5mwVPOWhAyCX+FPfMDrVecJAM+Iw9NRoSl4BBAQeqj4cApHHUXOVvIPgLVDsCFoz/hGD+5QQD1GQ==}
     dev: false
 
-  /@emotion/react@11.14.0(@types/react@19.1.11)(react@19.1.1):
+  /@emotion/react@11.14.0(@types/react@19.1.12)(react@19.1.1):
     resolution: {integrity: sha512-O000MLDBDdk/EohJPFUqvnp4qnHeYkVP5B0xEG0D/L7cOKP9kefu2DXn8dj74cQfsEzUqh+sr1RzFqiL1o+PpA==}
     peerDependencies:
       '@types/react': '*'
@@ -503,7 +503,7 @@ packages:
       '@emotion/use-insertion-effect-with-fallbacks': 1.2.0(react@19.1.1)
       '@emotion/utils': 1.4.2
       '@emotion/weak-memoize': 0.4.0
-      '@types/react': 19.1.11
+      '@types/react': 19.1.12
       hoist-non-react-statics: 3.3.2
       react: 19.1.1
     transitivePeerDependencies:
@@ -524,7 +524,7 @@ packages:
     resolution: {integrity: sha512-fTBW9/8r2w3dXWYM4HCB1Rdp8NLibOw2+XELH5m5+AkWiL/KqYX6dc0kKYlaYyKjrQ6ds33MCdMPEwgs2z1rqg==}
     dev: false
 
-  /@emotion/styled@11.14.1(@emotion/react@11.14.0)(@types/react@19.1.11)(react@19.1.1):
+  /@emotion/styled@11.14.1(@emotion/react@11.14.0)(@types/react@19.1.12)(react@19.1.1):
     resolution: {integrity: sha512-qEEJt42DuToa3gurlH4Qqc1kVpNq8wO8cJtDzU46TjlzWjDlsVyevtYCRijVq3SrHsROS+gVQ8Fnea108GnKzw==}
     peerDependencies:
       '@emotion/react': ^11.0.0-rc.0
@@ -537,11 +537,11 @@ packages:
       '@babel/runtime': 7.27.6
       '@emotion/babel-plugin': 11.13.5
       '@emotion/is-prop-valid': 1.3.1
-      '@emotion/react': 11.14.0(@types/react@19.1.11)(react@19.1.1)
+      '@emotion/react': 11.14.0(@types/react@19.1.12)(react@19.1.1)
       '@emotion/serialize': 1.3.3
       '@emotion/use-insertion-effect-with-fallbacks': 1.2.0(react@19.1.1)
       '@emotion/utils': 1.4.2
-      '@types/react': 19.1.11
+      '@types/react': 19.1.12
       react: 19.1.1
     transitivePeerDependencies:
       - supports-color
@@ -792,16 +792,16 @@ packages:
     resolution: {integrity: sha512-AUZTa7hQ2KY5L7AmtSiqxlhWxb4ina0yd8hNbl4TWuqnv/pFP0nDMb3YrfSBf4hJVGLh2YEIBfKaBW/9UEl6IQ==}
     dev: false
 
-  /@types/react-dom@19.1.7(@types/react@19.1.11):
-    resolution: {integrity: sha512-i5ZzwYpqjmrKenzkoLM2Ibzt6mAsM7pxB6BCIouEVVmgiqaMj1TjaK7hnA36hbW5aZv20kx7Lw6hWzPWg0Rurw==}
+  /@types/react-dom@19.1.9(@types/react@19.1.12):
+    resolution: {integrity: sha512-qXRuZaOsAdXKFyOhRBg6Lqqc0yay13vN7KrIg4L7N4aaHN68ma9OK3NE1BoDFgFOTfM7zg+3/8+2n8rLUH3OKQ==}
     peerDependencies:
       '@types/react': ^19.0.0
     dependencies:
-      '@types/react': 19.1.11
+      '@types/react': 19.1.12
     dev: true
 
-  /@types/react@19.1.11:
-    resolution: {integrity: sha512-lr3jdBw/BGj49Eps7EvqlUaoeA0xpj3pc0RoJkHpYaCHkVK7i28dKyImLQb3JVlqs3aYSXf7qYuWOW/fgZnTXQ==}
+  /@types/react@19.1.12:
+    resolution: {integrity: sha512-cMoR+FoAf/Jyq6+Df2/Z41jISvGZZ2eTlnsaJRptmZ76Caldwy1odD4xTr/gNV9VLj0AWgg/nmkevIyUfIIq5w==}
     dependencies:
       csstype: 3.1.3
 
@@ -1831,7 +1831,7 @@ packages:
     resolution: {integrity: sha512-nsO+KSNgo1SbJqJEYRE9ERzo7YtYbou/OqjSQKxV7jcKox7+usiUVZOAC+XnDOABXggQTno0Y1CpVnuWEc1boQ==}
     dev: false
 
-  /react-focus-lock@2.13.6(@types/react@19.1.11)(react@19.1.1):
+  /react-focus-lock@2.13.6(@types/react@19.1.12)(react@19.1.1):
     resolution: {integrity: sha512-ehylFFWyYtBKXjAO9+3v8d0i+cnc1trGS0vlTGhzFW1vbFXVUTmR8s2tt/ZQG8x5hElg6rhENlLG1H3EZK0Llg==}
     peerDependencies:
       '@types/react': '*'
@@ -1841,13 +1841,13 @@ packages:
         optional: true
     dependencies:
       '@babel/runtime': 7.27.1
-      '@types/react': 19.1.11
+      '@types/react': 19.1.12
       focus-lock: 1.3.6
       prop-types: 15.8.1
       react: 19.1.1
       react-clientside-effect: 1.2.8(react@19.1.1)
-      use-callback-ref: 1.3.3(@types/react@19.1.11)(react@19.1.1)
-      use-sidecar: 1.1.3(@types/react@19.1.11)(react@19.1.1)
+      use-callback-ref: 1.3.3(@types/react@19.1.12)(react@19.1.1)
+      use-sidecar: 1.1.3(@types/react@19.1.12)(react@19.1.1)
     dev: false
 
   /react-icons@5.5.0(react@19.1.1):
@@ -1862,7 +1862,7 @@ packages:
     resolution: {integrity: sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==}
     dev: false
 
-  /react-remove-scroll-bar@2.3.8(@types/react@19.1.11)(react@19.1.1):
+  /react-remove-scroll-bar@2.3.8(@types/react@19.1.12)(react@19.1.1):
     resolution: {integrity: sha512-9r+yi9+mgU33AKcj6IbT9oRCO78WriSj6t/cF8DWBZJ9aOGPOTEDvdUDz1FwKim7QXWwmHqtdHnRJfhAxEG46Q==}
     engines: {node: '>=10'}
     peerDependencies:
@@ -1872,13 +1872,13 @@ packages:
       '@types/react':
         optional: true
     dependencies:
-      '@types/react': 19.1.11
+      '@types/react': 19.1.12
       react: 19.1.1
-      react-style-singleton: 2.2.3(@types/react@19.1.11)(react@19.1.1)
+      react-style-singleton: 2.2.3(@types/react@19.1.12)(react@19.1.1)
       tslib: 2.8.1
     dev: false
 
-  /react-remove-scroll@2.7.0(@types/react@19.1.11)(react@19.1.1):
+  /react-remove-scroll@2.7.0(@types/react@19.1.12)(react@19.1.1):
     resolution: {integrity: sha512-sGsQtcjMqdQyijAHytfGEELB8FufGbfXIsvUTe+NLx1GDRJCXtCFLBLUI1eyZCKXXvbEU2C6gai0PZKoIE9Vbg==}
     engines: {node: '>=10'}
     peerDependencies:
@@ -1888,16 +1888,16 @@ packages:
       '@types/react':
         optional: true
     dependencies:
-      '@types/react': 19.1.11
+      '@types/react': 19.1.12
       react: 19.1.1
-      react-remove-scroll-bar: 2.3.8(@types/react@19.1.11)(react@19.1.1)
-      react-style-singleton: 2.2.3(@types/react@19.1.11)(react@19.1.1)
+      react-remove-scroll-bar: 2.3.8(@types/react@19.1.12)(react@19.1.1)
+      react-style-singleton: 2.2.3(@types/react@19.1.12)(react@19.1.1)
       tslib: 2.8.1
-      use-callback-ref: 1.3.3(@types/react@19.1.11)(react@19.1.1)
-      use-sidecar: 1.1.3(@types/react@19.1.11)(react@19.1.1)
+      use-callback-ref: 1.3.3(@types/react@19.1.12)(react@19.1.1)
+      use-sidecar: 1.1.3(@types/react@19.1.12)(react@19.1.1)
     dev: false
 
-  /react-style-singleton@2.2.3(@types/react@19.1.11)(react@19.1.1):
+  /react-style-singleton@2.2.3(@types/react@19.1.12)(react@19.1.1):
     resolution: {integrity: sha512-b6jSvxvVnyptAiLjbkWLE/lOnR4lfTtDAl+eUC7RZy+QQWc6wRzIV2CE6xBuMmDxc2qIihtDCZD5NPOFl7fRBQ==}
     engines: {node: '>=10'}
     peerDependencies:
@@ -1907,7 +1907,7 @@ packages:
       '@types/react':
         optional: true
     dependencies:
-      '@types/react': 19.1.11
+      '@types/react': 19.1.12
       get-nonce: 1.0.1
       react: 19.1.1
       tslib: 2.8.1
@@ -2270,7 +2270,7 @@ packages:
       unist-util-visit-parents: 6.0.1
     dev: false
 
-  /use-callback-ref@1.3.3(@types/react@19.1.11)(react@19.1.1):
+  /use-callback-ref@1.3.3(@types/react@19.1.12)(react@19.1.1):
     resolution: {integrity: sha512-jQL3lRnocaFtu3V00JToYz/4QkNWswxijDaCVNZRiRTO3HQDLsdu1ZtmIUvV4yPp+rvWm5j0y0TG/S61cuijTg==}
     engines: {node: '>=10'}
     peerDependencies:
@@ -2280,12 +2280,12 @@ packages:
       '@types/react':
         optional: true
     dependencies:
-      '@types/react': 19.1.11
+      '@types/react': 19.1.12
       react: 19.1.1
       tslib: 2.8.1
     dev: false
 
-  /use-sidecar@1.1.3(@types/react@19.1.11)(react@19.1.1):
+  /use-sidecar@1.1.3(@types/react@19.1.12)(react@19.1.1):
     resolution: {integrity: sha512-Fedw0aZvkhynoPYlA5WXrMCAMm+nSWdZt6lzJQ7Ok8S6Q+VsHmHpRWndVRJ8Be0ZbkfPc5LRYH+5XrzXcEeLRQ==}
     engines: {node: '>=10'}
     peerDependencies:
@@ -2295,7 +2295,7 @@ packages:
       '@types/react':
         optional: true
     dependencies:
-      '@types/react': 19.1.11
+      '@types/react': 19.1.12
       detect-node-es: 1.1.0
       react: 19.1.1
       tslib: 2.8.1
