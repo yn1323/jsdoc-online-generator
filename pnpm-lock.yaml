@@ -60,7 +60,7 @@ devDependencies:
     version: 27.0.0
   '@types/node':
     specifier: ^22.0.0
-    version: 22.18.8
+    version: 22.18.9
   '@types/react':
     specifier: ^19.0.0
     version: 19.2.0
@@ -764,7 +764,7 @@ packages:
   /@types/jsdom@27.0.0:
     resolution: {integrity: sha512-NZyFl/PViwKzdEkQg96gtnB8wm+1ljhdDay9ahn4hgb+SfVtPCbm3TlmDUFXTA+MGN3CijicnMhG18SI5H3rFw==}
     dependencies:
-      '@types/node': 22.18.8
+      '@types/node': 22.18.9
       '@types/tough-cookie': 4.0.5
       parse5: 7.3.0
     dev: true
@@ -800,8 +800,8 @@ packages:
     resolution: {integrity: sha512-6L6VymKTzYSrEf4Nev4Xa1LCHKrlTlYCBMTlQKFuddo1CvQcE52I0mwfOJayueUC7MJuXOeHTcIU683lzd0cUA==}
     dev: false
 
-  /@types/node@22.18.8:
-    resolution: {integrity: sha512-pAZSHMiagDR7cARo/cch1f3rXy0AEXwsVsVH09FcyeJVAzCnGgmYis7P3JidtTUjyadhTeSo8TgRPswstghDaw==}
+  /@types/node@22.18.9:
+    resolution: {integrity: sha512-5yBtK0k/q8PjkMXbTfeIEP/XVYnz1R9qZJ3yUicdEW7ppdDJfe+MqXEhpqDL3mtn4Wvs1u0KLEG0RXzCgNpsSg==}
     dependencies:
       undici-types: 6.21.0
     dev: true
