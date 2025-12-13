@@ -30,8 +30,8 @@ dependencies:
     specifier: ^27.0.0
     version: 27.2.0
   next:
-    specifier: 14.2.33
-    version: 14.2.33(@playwright/test@1.57.0)(react-dom@19.2.3)(react@19.2.3)
+    specifier: 14.2.35
+    version: 14.2.35(@playwright/test@1.57.0)(react-dom@19.2.3)(react@19.2.3)
   react:
     specifier: ^19.0.0
     version: 19.2.3
@@ -632,8 +632,8 @@ packages:
       '@jridgewell/sourcemap-codec': 1.5.0
     dev: false
 
-  /@next/env@14.2.33:
-    resolution: {integrity: sha512-CgVHNZ1fRIlxkLhIX22flAZI/HmpDaZ8vwyJ/B0SDPTBuLZ1PJ+DWMjCHhqnExfmSQzA/PbZi8OAc7PAq2w9IA==}
+  /@next/env@14.2.35:
+    resolution: {integrity: sha512-DuhvCtj4t9Gwrx80dmz2F4t/zKQ4ktN8WrMwOuVzkJfBilwAwGr6v16M5eI8yCuZ63H9TTuEU09Iu2HqkzFPVQ==}
     dev: false
 
   /@next/swc-darwin-arm64@14.2.33:
@@ -1558,8 +1558,8 @@ packages:
     hasBin: true
     dev: false
 
-  /next@14.2.33(@playwright/test@1.57.0)(react-dom@19.2.3)(react@19.2.3):
-    resolution: {integrity: sha512-GiKHLsD00t4ACm1p00VgrI0rUFAC9cRDGReKyERlM57aeEZkOQGcZTpIbsGn0b562FTPJWmYfKwplfO9EaT6ng==}
+  /next@14.2.35(@playwright/test@1.57.0)(react-dom@19.2.3)(react@19.2.3):
+    resolution: {integrity: sha512-KhYd2Hjt/O1/1aZVX3dCwGXM1QmOV4eNM2UTacK5gipDdPN/oHHK/4oVGy7X8GMfPMsUTUEmGlsy0EY1YGAkig==}
     engines: {node: '>=18.17.0'}
     hasBin: true
     peerDependencies:
@@ -1576,7 +1576,7 @@ packages:
       sass:
         optional: true
     dependencies:
-      '@next/env': 14.2.33
+      '@next/env': 14.2.35
       '@playwright/test': 1.57.0
       '@swc/helpers': 0.5.5
       busboy: 1.6.0
