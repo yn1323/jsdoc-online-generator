@@ -23,7 +23,7 @@
     "framer-motion": "^12.0.0",
     "jsdoc": "3.6.11",
     "jsdom": "^27.0.0",
-    "next": "14.2.33",
+    "next": "14.2.35",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-icons": "^5.0.1",
