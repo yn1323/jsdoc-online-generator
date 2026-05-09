@@ -30,7 +30,7 @@
     "react-ts-typewriter": "0.1.8-b"
   },
   "devDependencies": {
-    "@biomejs/biome": "^1.5.3",
+    "@biomejs/biome": "^2.0.0",
     "@playwright/test": "^1.41.2",
     "@types/gtag.js": "^0.0.20",
     "@types/jsdom": "^27.0.0",
